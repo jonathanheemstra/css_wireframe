@@ -57,6 +57,9 @@ footer {
 .last_child {
   margin-right: 0;
 }
+.tiles {
+  font-size: 0;
+}
 .button {
   width: 40%;
   background: grey;
