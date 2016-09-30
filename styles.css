@@ -22,6 +22,20 @@ p {
   height: 260px;
   overflow: scroll;
 }
+section, footer {
+  margin-top: 30px;
+}
+div {
+  float: right;
+  width: 50%;
+}
+div * {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+div h2 {
+  margin-top:0px;
+}
 footer {
   height: 50px;
   background-color: grey;
@@ -29,21 +43,30 @@ footer {
 .max_width {
   width: 100%;
 }
-.right {
-  float: right;
-  width: 50%;
-}
 .full_width_background { /*built using https://css-tricks.com/full-browser-width-bars/ technique*/
   margin: 0 -9999rem;
   padding: 30px 9999rem;
   background: grey;
 }
 .gutter {
-  margin: 15px;
+  margin-top: 30px;
 }
 .first_child {
   margin-left: 0;
 }
 .last_child {
   margin-right: 0;
+}
+.button {
+  width: 40%;
+  background: grey;
+  display: block;
+  text-align: center;
+  padding: 17px;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 350ms ease;
+}
+.button:hover {
+  background-color: red;
 }
